@@ -15,6 +15,7 @@ import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
+import org.spongepowered.asm.mixin.injection.ModifyVariable;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(Hud.class)
@@ -43,6 +44,9 @@ public abstract class HudMixin {
     @Shadow
     protected abstract void extractFood(GuiGraphicsExtractor graphics, Player player, int yLineBase, int xRight);
 
+    @Shadow
+    protected abstract boolean willPrioritizeJumpInfo();
+
     @Unique
     private boolean foodWithMount() {
         return ModConfig.showFoodWhileMounted && getVehicleMaxHearts(getPlayerVehicleWithHealth()) > 0;
@@ -63,5 +67,10 @@ public abstract class HudMixin {
     @ModifyConstant(method = "extractVehicleHealth", constant = @Constant(intValue = BOTTOM_ROW_OFFSET))
     private int raiseVehicleHealth(int offset) {
         return foodWithMount() && minecraft.gameMode.canHurtPlayer() ? offset + ROW_HEIGHT : offset;
+    }
+
+    @ModifyVariable(method = "nextContextualInfoState", at = @At("STORE"), ordinal = 1)
+    private boolean showJumpBarOnlyWhileJumping(boolean canShowVehicleJumpInfo) {
+        return ModConfig.experienceUntilJump ? canShowVehicleJumpInfo && willPrioritizeJumpInfo() : canShowVehicleJumpInfo;
     }
 }
