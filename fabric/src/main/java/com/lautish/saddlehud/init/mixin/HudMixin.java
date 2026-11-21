@@ -27,6 +27,8 @@ public abstract class HudMixin {
     private static final int HOTBAR_HALF_WIDTH = 91;
     @Unique
     private static final int ROW_HEIGHT = 10;
+    @Unique
+    private static final int SELECTED_ITEM_NAME_OFFSET = 59;
 
     @Shadow
     @Final
@@ -45,11 +47,14 @@ public abstract class HudMixin {
     protected abstract void extractFood(GuiGraphicsExtractor graphics, Player player, int yLineBase, int xRight);
 
     @Shadow
+    protected abstract int getVisibleVehicleHeartRows(int hearts);
+
+    @Shadow
     protected abstract boolean willPrioritizeJumpInfo();
 
     @Unique
     private boolean foodWithMount() {
-        return ModConfig.showFoodWhileMounted && getVehicleMaxHearts(getPlayerVehicleWithHealth()) > 0;
+        return ModConfig.showFoodWhileMounted && minecraft.gameMode.canHurtPlayer() && getVehicleMaxHearts(getPlayerVehicleWithHealth()) > 0;
     }
 
     @Inject(method = "extractPlayerHealth", at = @At("TAIL"))
@@ -66,7 +71,12 @@ public abstract class HudMixin {
 
     @ModifyConstant(method = "extractVehicleHealth", constant = @Constant(intValue = BOTTOM_ROW_OFFSET))
     private int raiseVehicleHealth(int offset) {
-        return foodWithMount() && minecraft.gameMode.canHurtPlayer() ? offset + ROW_HEIGHT : offset;
+        return foodWithMount() ? offset + ROW_HEIGHT : offset;
+    }
+
+    @ModifyConstant(method = "extractSelectedItemName", constant = @Constant(intValue = SELECTED_ITEM_NAME_OFFSET))
+    private int raiseSelectedItemName(int offset) {
+        return foodWithMount() ? Math.max(offset, BOTTOM_ROW_OFFSET + ROW_HEIGHT * (getVisibleVehicleHeartRows(getVehicleMaxHearts(getPlayerVehicleWithHealth())) + 1)) : offset;
     }
 
     @ModifyVariable(method = "nextContextualInfoState", at = @At("STORE"), ordinal = 1)
