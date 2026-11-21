@@ -1,0 +1,7 @@
+{
+  "saddlehud.config.title": "Saddle HUD",
+  "saddlehud.config.showFoodWhileMounted": "Show Food While Mounted",
+  "saddlehud.config.showFoodWhileMounted.tooltip": "Show your food bar while riding, with your mount's health one row above",
+  "saddlehud.config.experienceUntilJump": "Experience Bar Until Jump",
+  "saddlehud.config.experienceUntilJump.tooltip": "Keep the experience bar while riding and switch to the jump bar only while jumping"
+}

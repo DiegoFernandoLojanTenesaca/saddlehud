@@ -1,0 +1,7 @@
+{
+  "saddlehud.config.title": "Saddle HUD",
+  "saddlehud.config.showFoodWhileMounted": "Mostrar el hambre al montar",
+  "saddlehud.config.showFoodWhileMounted.tooltip": "Muestra la barra de hambre mientras montas, con la salud de lo que montas una fila más arriba",
+  "saddlehud.config.experienceUntilJump": "Experiencia hasta saltar",
+  "saddlehud.config.experienceUntilJump.tooltip": "Mantiene la barra de experiencia mientras montas y solo muestra la de salto mientras saltas"
+}
