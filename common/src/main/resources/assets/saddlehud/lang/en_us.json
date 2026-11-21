@@ -7,9 +7,9 @@
   "saddlehud.config.showMountArmor": "Show Mount Armor",
   "saddlehud.config.showMountArmor.tooltip": "Show your mount's armor as a row of armor icons above its hearts",
   "saddlehud.config.showMountStats": "Show Mount Speed and Jump",
-  "saddlehud.config.showMountStats.tooltip": "Show your horse's top speed and jump height next to the hotbar while riding",
+  "saddlehud.config.showMountStats.tooltip": "Show your horse's top speed and jump height next to the hotbar while riding. Green is great, yellow is average, red is slow",
   "saddlehud.config.lowHealthWarning": "Low Mount Health Warning",
   "saddlehud.config.lowHealthWarning.tooltip": "Make your mount's hearts blink and play a sound when it drops below 30% health",
-  "saddlehud.hud.speed": "Speed: %s blocks/s",
-  "saddlehud.hud.jump": "Jump: %s blocks"
+  "saddlehud.hud.speed": "%s m/s",
+  "saddlehud.hud.jump": "%s m"
 }

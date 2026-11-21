@@ -7,9 +7,9 @@
   "saddlehud.config.showMountArmor": "Mostrar la armadura de tu montura",
   "saddlehud.config.showMountArmor.tooltip": "Muestra la armadura de tu montura como una fila de íconos encima de su salud",
   "saddlehud.config.showMountStats": "Mostrar velocidad y salto",
-  "saddlehud.config.showMountStats.tooltip": "Muestra la velocidad máxima y la altura de salto de tu caballo junto a la barra mientras lo montas",
+  "saddlehud.config.showMountStats.tooltip": "Muestra la velocidad máxima y la altura de salto de tu caballo junto a la barra mientras lo montas. Verde es excelente, amarillo normal y rojo lento",
   "saddlehud.config.lowHealthWarning": "Aviso de poca salud",
   "saddlehud.config.lowHealthWarning.tooltip": "Hace parpadear la salud de tu montura y suena un aviso cuando baja del 30 %",
-  "saddlehud.hud.speed": "Velocidad: %s bloques/s",
-  "saddlehud.hud.jump": "Salto: %s bloques"
+  "saddlehud.hud.speed": "%s m/s",
+  "saddlehud.hud.jump": "%s m"
 }
