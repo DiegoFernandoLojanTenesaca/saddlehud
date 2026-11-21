@@ -14,3 +14,17 @@ Everything about your mount in the HUD: food, health, armor, speed, jump and low
 <strong>Fabric/Quilt dependencies:</strong>
 
 - <a href="https://modrinth.com/mod/modmenu" target="_blank">Mod Menu mod</a> <strong>(Optional)</strong>
+
+<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/before-after.png"><br>
+
+<details>
+  <summary>More screenshots</summary>
+
+<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/armor-stats.png" width="500">
+<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/low-health.png" width="500">
+<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/slow-horse.png" width="500">
+<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/camel.png" width="500">
+<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/underwater.png" width="500">
+<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/riding.png" width="500">
+
+</details>
