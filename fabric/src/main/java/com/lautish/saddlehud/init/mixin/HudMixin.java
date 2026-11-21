@@ -26,6 +26,8 @@ public abstract class HudMixin {
     private static final int BOTTOM_ROW_OFFSET = 39;
     @Unique
     private static final int SELECTED_ITEM_NAME_OFFSET = 59;
+    @Unique
+    private static final String EXTRACT_AIR_BUBBLES = "Lnet/minecraft/client/gui/Hud;extractAirBubbles(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/world/entity/player/Player;III)V";
 
     @Shadow
     @Final
@@ -64,7 +66,12 @@ public abstract class HudMixin {
         return ModConfig.showFoodWhileMounted ? 0 : vehicleHearts;
     }
 
-    @ModifyArg(method = "extractPlayerHealth", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/Hud;extractAirBubbles(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/world/entity/player/Player;III)V"), index = 3)
+    @ModifyArg(method = "extractPlayerHealth", at = @At(value = "INVOKE", target = EXTRACT_AIR_BUBBLES), index = 2)
+    private int keepAirBubblesOverMountHearts(int vehicleHearts) {
+        return getVehicleMaxHearts(getPlayerVehicleWithHealth());
+    }
+
+    @ModifyArg(method = "extractPlayerHealth", at = @At(value = "INVOKE", target = EXTRACT_AIR_BUBBLES), index = 3)
     private int raiseAirBubblesOverMountArmor(int yLineAir) {
         return MountHud.showsArmor(getPlayerVehicleWithHealth()) ? yLineAir - MountHud.ROW_HEIGHT : yLineAir;
     }
