@@ -3,5 +3,13 @@
   "saddlehud.config.showFoodWhileMounted": "Show Food While Mounted",
   "saddlehud.config.showFoodWhileMounted.tooltip": "Show your food bar while riding, with your mount's health one row above",
   "saddlehud.config.experienceUntilJump": "Experience Bar Until Jump",
-  "saddlehud.config.experienceUntilJump.tooltip": "Keep the experience bar while riding and switch to the jump bar only while jumping"
+  "saddlehud.config.experienceUntilJump.tooltip": "Keep the experience bar while riding and switch to the jump bar only while jumping",
+  "saddlehud.config.showMountArmor": "Show Mount Armor",
+  "saddlehud.config.showMountArmor.tooltip": "Show your mount's armor as a row of armor icons above its hearts",
+  "saddlehud.config.showMountStats": "Show Mount Speed and Jump",
+  "saddlehud.config.showMountStats.tooltip": "Show your horse's top speed and jump height next to the hotbar while riding",
+  "saddlehud.config.lowHealthWarning": "Low Mount Health Warning",
+  "saddlehud.config.lowHealthWarning.tooltip": "Make your mount's hearts blink and play a sound when it drops below 30% health",
+  "saddlehud.hud.speed": "Speed: %s blocks/s",
+  "saddlehud.hud.jump": "Jump: %s blocks"
 }
