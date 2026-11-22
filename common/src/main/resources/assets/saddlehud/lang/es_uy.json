@@ -1,0 +1,15 @@
+{
+  "saddlehud.config.title": "Saddle HUD",
+  "saddlehud.config.showFoodWhileMounted": "Mostrar el hambre al montar",
+  "saddlehud.config.showFoodWhileMounted.tooltip": "Muestra la barra de hambre mientras montás, con la salud de tu montura una fila más arriba",
+  "saddlehud.config.experienceUntilJump": "Experiencia hasta saltar",
+  "saddlehud.config.experienceUntilJump.tooltip": "Mantiene la barra de experiencia mientras montás y solo muestra la de salto mientras saltás",
+  "saddlehud.config.showMountArmor": "Mostrar la armadura de tu montura",
+  "saddlehud.config.showMountArmor.tooltip": "Muestra la armadura de tu montura como una fila de íconos encima de su salud",
+  "saddlehud.config.showMountStats": "Mostrar velocidad y salto",
+  "saddlehud.config.showMountStats.tooltip": "Muestra la velocidad máxima y la altura de salto de tu caballo junto a la barra mientras lo montás. Verde es excelente, amarillo normal y rojo lento",
+  "saddlehud.config.lowHealthWarning": "Aviso de poca salud",
+  "saddlehud.config.lowHealthWarning.tooltip": "Hace parpadear la salud de tu montura y suena un aviso cuando baja del 30 %",
+  "saddlehud.hud.speed": "%s m/s",
+  "saddlehud.hud.jump": "%s m"
+}
