@@ -1,5 +1,5 @@
 <h2><strong>Saddle HUD mod</strong></h2>
-<p><a href="https://www.curseforge.com/minecraft/mc-mods/saddle-hud"><img src="https://cf.way2muchnoise.eu/full_1822086_downloads.svg?badge_style=flat" alt="CurseForge downloads" /></a></p>
+<p><a href="https://www.curseforge.com/minecraft/mc-mods/saddle-hud"><img src="https://cf.way2muchnoise.eu/full_1822086_downloads.svg?badge_style=flat" alt="CurseForge downloads" /></a> <a href="https://modrinth.com/mod/saddle-hud"><img src="https://img.shields.io/badge/dynamic/json?color=2d2d2d&amp;colorA=17b85a&amp;style=flat-square&amp;label=&amp;suffix= downloads&amp;query=downloads&amp;url=https://api.modrinth.com/v2/project/iLzfJnBr&amp;logo=modrinth&amp;logoColor=2d2d2d" alt="Modrinth downloads" /></a></p>
 
 Everything about your mount in the HUD: food, health, armor, speed, jump and low health warnings
 
@@ -17,16 +17,16 @@ Everything about your mount in the HUD: food, health, armor, speed, jump and low
 
 - <a href="https://modrinth.com/mod/modmenu" target="_blank">Mod Menu mod</a> <strong>(Optional)</strong>
 
-<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/before-after.png"><br>
+<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/b3c356f1123675ce88a56c6e30e5b72f66e10ba6.png"><br>
 
 <details>
   <summary>More screenshots</summary>
 
-<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/armor-stats.png" width="500">
-<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/low-health.png" width="500">
-<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/slow-horse.png" width="500">
-<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/camel.png" width="500">
-<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/underwater.png" width="500">
-<img src="https://raw.githubusercontent.com/DiegoFernandoLojanTenesaca/saddlehud/media/riding.png" width="500">
+<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/83d07b3d355a8b0e8048b2eab3b5637760da5eb7.png" width="500">
+<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/579944ce0435077644f9dc8f686a3bfd703478e2.png" width="500">
+<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/4fa24cee4eb344bdf34d59e6d431a5b444d35bf3.png" width="500">
+<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/1981d1e958847c537b1920e3d9f9cbbc4270fd17.png" width="500">
+<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/a704c37c4d4f3854825d08b70a794462ae7885ce.png" width="500">
+<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/f053967f33aeace1461d425fbe375a9c2950ed48.png" width="500">
 
 </details>
