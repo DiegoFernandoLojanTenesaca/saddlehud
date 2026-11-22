@@ -5,27 +5,21 @@ Everything about your mount in the HUD: food, health, armor, speed, jump and low
 
 <strong>This mod adds:</strong>
 
-- Food bar and mount health shown at the same time (vanilla hides your food while riding)
+- Food bar and mount health shown at the same time (vanilla hides your food while riding)<br><img src="https://cdn.modrinth.com/data/iLzfJnBr/images/b3c356f1123675ce88a56c6e30e5b72f66e10ba6.png" width="500">
 - Experience bar stays visible while riding and becomes the jump bar only while jumping
-- Works with horses, donkeys, mules, llamas, camels, pigs, striders and every rideable mob
-- Your mount's armor shown as a row of armor icons above its hearts
-- Your horse's top speed and jump height next to the hotbar: green is great, yellow is average, red is poor
-- Low health warning: your mount's hearts blink and a sound plays below 30% health
+- Works with horses, donkeys, mules, llamas, camels, pigs, striders and every rideable mob<br><img src="https://cdn.modrinth.com/data/iLzfJnBr/images/1981d1e958847c537b1920e3d9f9cbbc4270fd17.png" width="500">
+- Your mount's armor shown as a row of armor icons above its hearts<br><img src="https://cdn.modrinth.com/data/iLzfJnBr/images/83d07b3d355a8b0e8048b2eab3b5637760da5eb7.png" width="500">
+- Your horse's top speed and jump height next to the hotbar: green is great, yellow is average, red is poor<br><img src="https://cdn.modrinth.com/data/iLzfJnBr/images/4fa24cee4eb344bdf34d59e6d431a5b444d35bf3.png" width="500">
+- Low health warning: your mount's hearts blink and a sound plays below 30% health<br><img src="https://cdn.modrinth.com/data/iLzfJnBr/images/579944ce0435077644f9dc8f686a3bfd703478e2.png" width="500">
 - Every feature can be toggled in the mod config
 
 <strong>Fabric/Quilt dependencies:</strong>
 
 - <a href="https://modrinth.com/mod/modmenu" target="_blank">Mod Menu mod</a> <strong>(Optional)</strong>
 
-<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/b3c356f1123675ce88a56c6e30e5b72f66e10ba6.png"><br>
-
 <details>
   <summary>More screenshots</summary>
 
-<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/83d07b3d355a8b0e8048b2eab3b5637760da5eb7.png" width="500">
-<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/579944ce0435077644f9dc8f686a3bfd703478e2.png" width="500">
-<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/4fa24cee4eb344bdf34d59e6d431a5b444d35bf3.png" width="500">
-<img src="https://cdn.modrinth.com/data/iLzfJnBr/images/1981d1e958847c537b1920e3d9f9cbbc4270fd17.png" width="500">
 <img src="https://cdn.modrinth.com/data/iLzfJnBr/images/a704c37c4d4f3854825d08b70a794462ae7885ce.png" width="500">
 <img src="https://cdn.modrinth.com/data/iLzfJnBr/images/f053967f33aeace1461d425fbe375a9c2950ed48.png" width="500">
 
