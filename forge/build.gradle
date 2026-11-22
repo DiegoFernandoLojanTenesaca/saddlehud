@@ -102,9 +102,15 @@ publishMods {
         minecraftVersions.addAll(gameVersions)
         clientRequired = true
     }
+
+    modrinth {
+        accessToken = System.getenv("MODRINTH_TOKEN")
+        projectId = "iLzfJnBr"
+        minecraftVersions.addAll(gameVersions)
+    }
 }
 
-["publishCurseforge", "publishMods"].each { task ->
+["publishCurseforge", "publishModrinth", "publishMods"].each { task ->
     tasks.named(task) {
         mustRunAfter(":fabric:$task")
     }
