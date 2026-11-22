@@ -1,1 +1,1 @@
-- Initial release
+- Added Spanish for Argentina, Chile, Ecuador, Uruguay and Venezuela
